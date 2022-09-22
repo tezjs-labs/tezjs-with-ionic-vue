@@ -1,0 +1,37 @@
+@import '@ionic/vue/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+@import '@ionic/vue/css/normalize.css';
+@import '@ionic/vue/css/structure.css';
+@import '@ionic/vue/css/typography.css';
+
+/* Optional CSS utils that can be commented out */
+@import '@ionic/vue/css/padding.css';
+@import '@ionic/vue/css/float-elements.css';
+@import '@ionic/vue/css/text-alignment.css';
+@import '@ionic/vue/css/text-transformation.css';
+@import '@ionic/vue/css/flex-utils.css';
+@import '@ionic/vue/css/display.css';
+
+.container {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  background-color: #6366F1;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.375rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
